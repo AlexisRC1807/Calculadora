@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora operaciones basicas</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js"></script>
+</head>
+<body>
+
+    <div class="div-1">
+    <nav class="menu">
+        <section class="menu__container">
+            <h1 class="menu__logo">Calculadora</h1>
+        
+
+        <ul class="menu__links">
+
+            <li class="menu__item menu__item--show">
+
+                <a href="#" class="menu__links">Informacion<img src="Img/arrow.svg" class="menu__arrow"></a>
+
+                <ul class="menu__nesting">
+
+                    <li class="menu__inside">
+
+                        <a href="#" class="menu__link menu__link--inside">Lenguajes utilizados</a>
+                        
+                    </li>
+
+                    <li class="menu__inside">
+
+                        <a href="#" class="menu__link menu__link--inside">Gitgub</a>
+
+                    </li>
+                    <li class="menu__inside">
+
+                        <a href="#" class="menu__link menu__link--inside">Creador</a>
+                        
+                    </li>
+                </ul>
+            </li>
+
+        </ul>
+        <div class="menu__hamburger">
+            <img src="Img/menu.svg" class="menu__img">
+        </div>
+    </section>
+    </nav>
+   </div>
+   
+
+
+
+
+
+
+
+
+<div class="body">
+
+    <div class="Body-Calculadora">
+        <div>
+            <input type="text" id="Resultado" class="Color" placeholder="0" readonly>
+        </div>
+        <div 
+        <div class="Num-Cont">
+            <button class="s-button Color" onclick="numeros(7)">7</button>
+            <button class="s-button Color" onclick="numeros(8)">8</button>
+            <button class="s-button Color" onclick="numeros(9)">9</button>
+            <button class="s-button Color" onclick="numeros('+')">+</button>
+        </div>
+
+        <div class="Num-Cont">
+            <button class="s-button Color" onclick="numeros(4)">4</button>
+            <button class="s-button" onclick="numeros(5)">5</button>
+            <button class="s-button Color" onclick="numeros(6)">6</button>
+            <button class="s-button Color" onclick="numeros('-')">-</button>
+        </div>
+
+        <div class="Num-Cont">
+            <button class="s-button Color" onclick="numeros(1)">1</button>
+            <button class="s-button Color" onclick="numeros(2)">2</button>
+            <button class="s-button Color" onclick="numeros(3)">3</button>
+            <button class="s-button Color" onclick="numeros('/')">/</button>
+        </div>
+
+        <div class="Num-Cont">
+            <button class="s-button Color" onclick="resetear()">C</button>
+            <button class="s-button Color" onclick="numeros(0)">0</button>
+            <button class="s-button Color" onclick="numeros('.')">.</button>
+            <button class="s-button Color" onclick="numeros('*')">X</button>
+        </div>
+
+        <div class="Num-Cont-2">
+            <button class="s-button Color" onclick="numeros('<')"><</button>
+            <button class="s-button Color" onclick="numeros('>')">></button>
+            <button class="s-button-2 Color" onclick="operacion()">=</button>
+        </div>
+    </div>
+    </div>
+</div>
+</body>
+</html>
