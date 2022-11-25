@@ -1,22 +1,11 @@
 
-
-
-
-
-
-
-
-
-
-
-
 /*Codigo de calculadora*/
 
 
 function numeros(valor){
     document.getElementById('Resultado').value += valor;
 
-}
+};
 
 function operacion(){
     var opera = document.getElementById('Resultado').value;
@@ -31,4 +20,7 @@ function operacion(){
 
 function resetear(){
     document.getElementById("Resultado").value = " ";
-}
+};
+
+
+

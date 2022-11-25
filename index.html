@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -10,97 +11,84 @@
 </head>
 <body>
 
-    <div class="div-1">
-    <nav class="menu">
-        <section class="menu__container">
-            <h1 class="menu__logo">Calculadora</h1>
-        
+   <div class="div-1">
+        <nav class="menu menu__color">
+            <section class="menu__container">
+                <h1 class="menu__logo">Calculadora <!--<span id="menu__logo__creator">by-Alexis RC</span>--></h1>
 
-        <ul class="menu__links">
+                <ul class="menu__links">
 
-            <li class="menu__item menu__item--show">
+                    <li class="menu__item menu__item--show">
 
-                <a href="#" class="menu__links">Informacion<img src="Img/arrow.svg" class="menu__arrow"></a>
+                    <a href="#" class="menu__links">Informacion<img src="Img/arrow.svg" class="menu__arrow"></a>
 
-                <ul class="menu__nesting">
+                        <ul class="menu__nesting menu__nesting__color">
 
-                    <li class="menu__inside">
+                            <li class="menu__inside">
 
-                        <a href="#" class="menu__link menu__link--inside">Lenguajes utilizados</a>
+                                <a href="#" class="menu__link menu__link--inside">Lenguajes utilizados</a>
+
+                            </li>
+
+                            <li class="menu__inside">
+
+                                 <a href="#" class="menu__link menu__link--inside">Creador</a>
+
+                            </li>
                         
-                    </li>
-
-                    <li class="menu__inside">
-
-                        <a href="#" class="menu__link menu__link--inside">Gitgub</a>
+                        </ul>
+                    </ul>
 
                     </li>
-                    <li class="menu__inside">
 
-                        <a href="#" class="menu__link menu__link--inside">Creador</a>
-                        
-                    </li>
                 </ul>
-            </li>
-
-        </ul>
-        <div class="menu__hamburger">
-            <img src="Img/menu.svg" class="menu__img">
-        </div>
-    </section>
-    </nav>
-   </div>
-   
+            </section>
+        </nav>
+    </div>
 
 
+    <div class="body">
 
+        <div class="Body-Calculadora Body-Calculadora__color">
+            <div>
+                <input type="text" id="Resultado" class="Resultado__color" placeholder="0" readonly>
+            </div>
+            <div <div class="Num-Cont">
+                <button class="s-button Color__button" onclick="numeros(7)">7</button>
+                <button class="s-button Color__button" onclick="numeros(8)">8</button>
+                <button class="s-button Color__button" onclick="numeros(9)">9</button>
+                <button class="s-button Color__button" onclick="numeros('+')">+</button>
+            </div>
 
+            <div class="Num-Cont">
+                <button class="s-button Color__button" onclick="numeros(4)">4</button>
+                <button class="s-button Color__button" onclick="numeros(5)">5</button>
+                <button class="s-button Color__button" onclick="numeros(6)">6</button>
+                <button class="s-button Color__button" onclick="numeros('-')">-</button>
+            </div>
 
+            <div class="Num-Cont">
+                <button class="s-button Color__button" onclick="numeros(1)">1</button>
+                <button class="s-button Color__button" onclick="numeros(2)">2</button>
+                <button class="s-button Color__button" onclick="numeros(3)">3</button>
+                <button class="s-button Color__button" onclick="numeros('/')">/</button>
+            </div>
 
+            <div class="Num-Cont">
+                <button class="s-button Color__button" onclick="resetear()">C</button>
+                <button class="s-button Color__button" onclick="numeros(0)">0</button>
+                <button class="s-button Color__button" onclick="numeros('.')">.</button>
+                <button class="s-button Color__button" onclick="numeros('*')">X</button>
+            </div>
 
-
-<div class="body">
-
-    <div class="Body-Calculadora">
-        <div>
-            <input type="text" id="Resultado" class="Color" placeholder="0" readonly>
-        </div>
-        <div 
-        <div class="Num-Cont">
-            <button class="s-button Color" onclick="numeros(7)">7</button>
-            <button class="s-button Color" onclick="numeros(8)">8</button>
-            <button class="s-button Color" onclick="numeros(9)">9</button>
-            <button class="s-button Color" onclick="numeros('+')">+</button>
-        </div>
-
-        <div class="Num-Cont">
-            <button class="s-button Color" onclick="numeros(4)">4</button>
-            <button class="s-button" onclick="numeros(5)">5</button>
-            <button class="s-button Color" onclick="numeros(6)">6</button>
-            <button class="s-button Color" onclick="numeros('-')">-</button>
-        </div>
-
-        <div class="Num-Cont">
-            <button class="s-button Color" onclick="numeros(1)">1</button>
-            <button class="s-button Color" onclick="numeros(2)">2</button>
-            <button class="s-button Color" onclick="numeros(3)">3</button>
-            <button class="s-button Color" onclick="numeros('/')">/</button>
-        </div>
-
-        <div class="Num-Cont">
-            <button class="s-button Color" onclick="resetear()">C</button>
-            <button class="s-button Color" onclick="numeros(0)">0</button>
-            <button class="s-button Color" onclick="numeros('.')">.</button>
-            <button class="s-button Color" onclick="numeros('*')">X</button>
-        </div>
-
-        <div class="Num-Cont-2">
-            <button class="s-button Color" onclick="numeros('<')"><</button>
-            <button class="s-button Color" onclick="numeros('>')">></button>
-            <button class="s-button-2 Color" onclick="operacion()">=</button>
+            <div class="Num-Cont-2">
+                <button class="s-button Color__button" onclick="numeros('<')"><</button>
+                 <button class="s-button Color__button" onclick="numeros('>')">></button>
+                 <button class="s-button-2 Color__button" onclick="operacion()">=</button>
+            </div>
         </div>
     </div>
     </div>
-</div>
 </body>
+
 </html>
