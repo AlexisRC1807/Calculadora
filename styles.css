@@ -14,7 +14,7 @@
     box-sizing: border-box;
 }
 body{
-    background-color: #1f2f2d;
+    background-color: #0d2925;
 }
 
 .body{
@@ -23,7 +23,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #1f2f2d;
+    background-color: #0d2925;
 }
 
 .Body-Calculadora{
@@ -34,7 +34,7 @@ body{
     height: 290px;
     padding: 30px;
     border-radius: 10px;
-    border-color: 0px solid #1f2f2d;
+    border-color: 0px solid #395855;
 
 }
 
@@ -51,7 +51,7 @@ body{
 }
 
 #Resultado:hover{
-    border: 5px double #374a48 ;
+    border: 5px double #638985 ;
 }
 
 .s-button{
@@ -61,7 +61,7 @@ body{
     background-color: #1f1d1d;
     color: #96efc7;
     border: .1px solid #0e0e0e00;
-    transition: .7s;
+    transition: .1s;
 }
 
 .Num-Cont, .Num-Cont-2{
@@ -78,7 +78,7 @@ body{
     color: #96efb4;
     border-radius: 15px;
     width: 66px;
-    height: 25px;
+    height: 29px;
     border: 2px solid #1f1f1f;
     transition: .4s;
 }
@@ -86,13 +86,13 @@ body{
 .s-button:hover{
     margin: 0;
     text-shadow: 0 0 10px #00ff73, 0 0 20px #ff8000;
-    height: 30.7px;
-    width: 30.7px;
+    height: 30.2px;
+    width: 30.2px;
 }
 
 .s-button-2:hover{
-    height: 26px;
-    width: 66px;
+    height: 29.4px;
+    width: 67px;
     text-shadow: 0 0 10px #00ff73, 0 0 25px #96efb4;
 }
 
